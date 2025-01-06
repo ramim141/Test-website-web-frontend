@@ -8,7 +8,7 @@ const handleLogin = (event) => {
     const password = document.getElementById('login-password').value;
 
     // Make the login request
-    fetch("https://test-website-web.onrender.comp/user/login/", {
+    fetch("https://test-website-web.onrender.com/user/login/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
